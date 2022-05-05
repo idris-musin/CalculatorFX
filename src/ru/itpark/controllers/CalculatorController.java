@@ -2,6 +2,7 @@ package ru.itpark.controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 import java.net.URL;
@@ -55,7 +56,11 @@ public class CalculatorController {
 
     @FXML
     void numberProcess(ActionEvent event) {
+        Button button = (Button) event.getSource();
+        String number = button.getText();
 
+        if (result.getText().equals("0")) result.setText("");
+        result.setText(result.getText() + number);
     }
 
     @FXML

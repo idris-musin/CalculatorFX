@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0"
-            prefWidth="325.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            prefWidth="325.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="ru.itpark.controllers.CalculatorController">
     <top>
         <TitledPane collapsible="false" prefHeight="180.0" prefWidth="325.0" text="Calculator"
